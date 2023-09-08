@@ -1,0 +1,22 @@
+#filter {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 0 1rem;
+    align-items: center;
+
+}
+
+.dropdown-item:active {
+    background-color: #c3c3c3 !important;
+}
+
+.options {
+    width: 8rem;
+    background-color: #c3c3c3;
+
+}
+
+#searchBar {
+    width: 40rem;
+
+}

@@ -1,0 +1,34 @@
+body {
+  background-color: #cccccc;
+}
+
+.root {
+  border: 0px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #270b0b;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 6;
+  background-color: #c3c3c3;
+  margin-top: -1rem;
+}
+
+
+main {
+  grid-area: 2 / 2 / 6 / 6;
+
+  margin: 0 6rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #cccccc;
+
+}
