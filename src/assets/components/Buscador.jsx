@@ -75,6 +75,9 @@ const SearchBar = ({ search, setSearch, DyDData, setDyDData }) => {
             Search for what you need mortal
           </Form.Text>
         </div>
+
+         <h1 className="title"> <strong>The Spellbook</strong>: D&D 5e</h1>
+         
       </div>
     </>
   );
