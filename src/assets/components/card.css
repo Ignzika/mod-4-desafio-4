@@ -19,13 +19,19 @@ font-style: italic;
 }
 
 .notFound{
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: xxx-large;
+    color: rgb(137, 118, 9);
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
     border-radius: 15px;
     display: flex;
     font-style: italic;
     background-color: #000000;
     flex-direction: column;
     cursor: not-allowed;
-    box-shadow: 0px 0px 100px 76px #000000 , 5px 5px 100px 21px #000000 inset;
+    box-shadow: 0px 0px 75px 95px #000000 , 5px 5px 100px 21px #000000 inset;
     color:rgba(188, 209, 196, 0.833);
     outline: 6px solid #000000;
     text-align: right;
