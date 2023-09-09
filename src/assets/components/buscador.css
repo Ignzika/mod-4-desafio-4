@@ -20,3 +20,12 @@
     width: 40rem;
 
 }
+
+.title{
+   font-family: 'Tangerine', cursive;
+   font-weight: 700;
+   font-size: xxx-large;
+   color: rgb(137, 118, 9);
+   word-spacing: 1rem;
+   letter-spacing: 0.5rem;
+}
